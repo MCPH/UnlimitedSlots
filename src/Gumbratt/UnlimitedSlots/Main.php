@@ -1,5 +1,5 @@
 <?php
-namespace Gumbratt\unlimited;
+namespace Gumbratt\UnlimitedSlots;
 	
 use pocketmine\plugin\PluginBase as Plugin;
 use pocketmine\event\Listener;
