@@ -8,7 +8,7 @@ use pocketmine\event\player\PlayerKickEvent;
 	class Loader extends Plugin implements Listener {
 		public function onEnable() {
 			$this->getServer()->getPluginManager()->registerEvents($this, $this);
-			$this->getServer()->getLogger()->info("Unlimited Enabled!");
+			$this->getServer()->getLogger()->info("UnlimitedSlots has enabled!");
 		}
 		
 		public function onPlayerKick(PlayerKickEvent $event) {
@@ -19,3 +19,4 @@ use pocketmine\event\player\PlayerKickEvent;
 		public function onDisable() {
 			$this->getServer()->getLogger()->info("Unlimited is no longer enabled! Did the server stop?");
 		}
+	}
