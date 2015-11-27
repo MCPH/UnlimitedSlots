@@ -5,7 +5,7 @@ use pocketmine\plugin\PluginBase as Plugin;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerKickEvent;
 			
-	class Loader extends Plugin implements Listener {
+	class Main extends Plugin implements Listener {
 		public function onEnable() {
 			$this->getServer()->getPluginManager()->registerEvents($this, $this);
 			$this->getServer()->getLogger()->info("UnlimitedSlots has enabled!");
